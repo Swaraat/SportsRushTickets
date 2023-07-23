@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="pic/logopng.png">
+    <title>SportsRushTickets</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+<style>
+    body {
+    background-image: url(pic/project.jpg);
+    font-family: 'Baloo Bhai', cursive;
+    margin: -8px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 1500px; */
+    color: white;
+}
+
+
+    .left {
+        position: absolute;
+        left: 44px;
+        top: 20px;
+       /* border: 2px solid red;*/
+        display: inline-block;
+
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        right: 20px;
+        margin: 20px auto;
+        /*border: 2px solid rgb(253, 233, 145);*/
+        top: 20px;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 73px;
+        top: 30px;
+      /*  border: 2px solid rgb(54, 228, 146);*/
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(222, 231, 238);
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .left img {
+        width: 133px;
+    }
+
+    .left div {
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 17.5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(48, 50, 51);
+    }
+
+    .container {
+        border: 3px solid white;
+        margin: 309px 462px;
+        padding: 31px;
+        width: 37%;
+        display: block;
+        border-radius: 85px;
+    }
+
+    .form-group input {
+
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 344px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 57%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- for logo -->
+            <img src="./pic/logo.jpg">
+            <div>enjoy & chill</div>
+
+        </div>
+        <div class="mid">
+            <!-- for nav bar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">UPCOMMING GAMES</a></li>
+                <li><a href="#">TICKET DETAILS</a></li>
+
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <!-- for buttons -->
+            <button class="btn"> CONTACT US</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>FILL THE FORM TO BOOK TICKETS:</h1>
+        <form action="notation.php">
+            <div class="form-group">
+                <input type="TEXT" name="" placeholder="YOUR NAME">
+            </div>
+            <div class="form-group">
+                <input type="TEXT" name="" placeholder="PHONE NUMBER">
+            </div>
+            <div class="form-group">
+                <input type="TEXT" name="" placeholder="YOUR EMAIL">
+            </div>
+            <div class="form-group">
+                <input type="TEXT" name="" placeholder="THE DATE OF THE MATCH">
+            </div>
+            <div class="form-group">
+                <input type="TEXT" name="" placeholder="SEATS TO RESURVE">
+            </div>
+            <button class="btn">CLICK TO SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
